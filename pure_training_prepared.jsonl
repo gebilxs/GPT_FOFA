@@ -1,0 +1,91 @@
+{"prompt": "如何使用FOFA查询特定的IP地址？", "completion": "ip=\"1.1.1.1\""}
+{"prompt": "我想要找到所有运行在80端口的资产。", "completion": "port=\"80\""}
+{"prompt": "如果我想要查找特定操作系统的资产，比如CentOS，我应该怎么做？", "completion": "os=\"centos\""}
+{"prompt": "我想要找出所有属于微软IIS 10的服务器。", "completion": "server=\"Microsoft-IIS/10\""}
+{"prompt": "如何查询特定自治系统号（ASN）的资产？", "completion": "asn=\"19551\""}
+{"prompt": "我怎样才能找到使用nginx的产品？", "completion": "product=\"NGINX\""}
+{"prompt": "如果我想要查找特定域名的资产，应该怎么操作？", "completion": "domain=\"qq.com\""}
+{"prompt": "如何筛选出所有含有特定标题的网站？", "completion": "title=\"beijing\""}
+{"prompt": "我想要找出所有设置了特定响应头的服务器，应该怎么做？", "completion": "header=\"elastic\""}
+{"prompt": "如何找到所有开放了特定端口，比如6379的资产？", "completion": "port=\"6379\""}
+{"prompt": "如何查找所有的ipv6资产？", "completion": "is_ipv6=true"}
+{"prompt": "我想要找出不属于任何云服务商的资产，应该怎么操作？", "completion": "is_cloud=false"}
+{"prompt": "如何利用FOFA查询语法来查找特定云服务商，比如阿里云的资产？", "completion": "cloud_name=\"Aliyundun\""}
+{"prompt": "我想要通过网站的ICP备案号来查找资产，应该使用什么语法？", "completion": "icp=\"京ICP证030173号\""}
+{"prompt": "如果我想要找到所有使用特定JavaScript库的网站，比如jQuery，我应该怎么查询？", "completion": "js_name=\"js/jquery.js\""}
+{"prompt": "如何找到所有域名解析到特定CNAME记录的资产？", "completion": "cname=\"ap21.inst.siteforce.com\""}
+{"prompt": "我怎样才能查找出所有使用了特定TLS版本，比如TLS 1.3的资产？", "completion": "tls.version=\"TLS 1.3\""}
+{"prompt": "如何利用FOFA查询特定的操作系统版本，例如Windows 10的资产？", "completion": "os=\"Windows 10\""}
+{"prompt": "我想要找出所有在特定时间后更新的资产，应该怎么做？", "completion": "after=\"2023-01-01\""}
+{"prompt": "如何通过FOFA查询语法来查找特定端口范围内的资产，比如开放了1000到2000之间的端口？", "completion": "port=\"1000\" || port=\"2000\""}
+{"prompt": "我想找出所有运行Apache服务器的资产。", "completion": "server=\"Apache\""}
+{"prompt": "如何查询所有位于中国浙江省的资产？", "completion": "region=\"Zhejiang\""}
+{"prompt": "我需要找到所有使用了特定SSL证书颁发机构颁发的证书的资产，比如Let's Encrypt。", "completion": "cert.issuer=\"Let's Encrypt\""}
+{"prompt": "如何查找所有部署了蜜罐的资产？", "completion": "is_honeypot=true"}
+{"prompt": "我怎样才能找到所有标记为服务的资产，例如HTTP服务？", "completion": "type=\"service\""}
+{"prompt": "如何通过域名的WHOIS注册信息中的组织名来查找资产？", "completion": "org=\"LLC Baxet\""}
+{"prompt": "我想要查找所有具有特定favicon图标hash值的网站，应该如何查询？", "completion": "icon_hash=\"-247388890\""}
+{"prompt": "如何找到所有响应状态码为404的网站？", "completion": "status_code=\"404\""}
+{"prompt": "我需要查找所有包含特定文本内容的网页，比如包含'欢迎访问'。", "completion": "body=\"欢迎访问\""}
+{"prompt": "如何找出所有的资产，它们的端口开放数量大于5个？", "completion": "port_size_gt=\"5\""}
+{"prompt": "我想通过特定的JavaScript文件MD5值来查找使用该文件的网站，怎么做？", "completion": "js_md5=\"82ac3f14327a8b7ba49baa208d4eaa15\""}
+{"prompt": "如何使用FOFA查找所有部署在特定云服务上的资产，例如AWS？", "completion": "cloud_name=\"AWS\""}
+{"prompt": "我怎么能找到所有的资产，它们在特定时间之前最后一次更新，例如2020年1月1日之前？", "completion": "before=\"2020-01-01\""}
+{"prompt": "如何查询所有的资产，它们使用了特定的TLS指纹，例如JARM指纹？", "completion": "jarm=\"2ad2ad0002ad2ad22c2ad2ad2ad2ad2eac92ec34bcc0cf7520e97547f83e81\""}
+{"prompt": "我需要找出所有使用了特定TLS JA3S指纹的资产，这个指纹是15af977ce25de452b96affa2addb1036，应该怎么查询？", "completion": "tls.ja3s=\"15af977ce25de452b96affa2addb1036\""}
+{"prompt": "如何查找所有标题包含'登录'的网页？", "completion": "title=\"登录\""}
+{"prompt": "我想找出所有包含特定HTML标签的网页，例如包含<div>标签。", "completion": "body=\"<div>\""}
+{"prompt": "如何利用FOFA找到所有运行特定版本的SSH服务的资产，比如SSH 2.0？", "completion": "banner=\"SSH 2.0\""}
+{"prompt": "我需要找到所有响应头中包含特定X-Powered-By值的资产，比如PHP/5.3.3。", "completion": "header=\"X-Powered-By: PHP/5.3.3\""}
+{"prompt": "如何查找所有使用了特定操作系统并开放了特定端口的资产，例如使用Windows 10并开放了3389端口？", "completion": "os=\"Windows 10\" && port=\"3389\""}
+{"prompt": "我想要查找所有域名为'.edu'结尾的教育机构网站。", "completion": "domain=\".edu\""}
+{"prompt": "如何找到所有位于特定城市的资产，例如位于上海的资产？", "completion": "city=\"Shanghai\""}
+{"prompt": "我想通过网站的Meta标签内容来查找资产，比如<meta name='keywords' content='example'>，应该怎么做？", "completion": "body=\"<meta name='keywords' content='example'>\""}
+{"prompt": "如何利用FOFA查询同时开放了多个特定端口的资产，例如同时开放了22和80端口的资产？", "completion": "ip_ports=\"22,80\""}
+{"prompt": "我需要找出所有CNAME记录指向特定域名的资产，例如指向example.com的资产。", "completion": "cname_domain=\"example.com\""}
+{"prompt": "如何查找所有在特定时间范围内更新过的资产，例如在2023年1月到2023年3月之间更新的资产？", "completion": "after=\"2023-01-01\" && before=\"2023-03-31\""}
+{"prompt": "我想找到所有的资产，它们使用了特定的Web框架，比如Django。", "completion": "header=\"Django\""}
+{"prompt": "如何使用FOFA查询语法找到所有部署了特定版本Web应用的资产，例如Wordpress 5.1？", "completion": "app=\"Wordpress\" && banner=\"5.1\""}
+{"prompt": "如何找到所有启用了HTTPS协议的资产？", "completion": "protocol=\"https\""}
+{"prompt": "我想查找所有的资产，它们的标题中包含'欢迎使用'四个字的网站。", "completion": "title=\"欢迎使用\""}
+{"prompt": "如何利用FOFA找到所有运行在443端口上的NGINX服务器？", "completion": "port=\"443\" && server=\"nginx\""}
+{"prompt": "我需要找出所有由特定ISP提供服务的资产，例如由'中国电信'提供服务的资产。", "completion": "org=\"中国电信\""}
+{"prompt": "如何查找所有包含特定响应头，比如'Access-Control-Allow-Origin: *'的资产？", "completion": "header=\"Access-Control-Allow-Origin: *\""}
+{"prompt": "我想通过特定的操作系统版本来筛选资产，例如所有运行Windows Server 2012的资产。", "completion": "os=\"Windows Server 2012\""}
+{"prompt": "如何找到所有具有特定SSL证书特征的资产，比如证书中包含'Let's Encrypt Authority X3'的？", "completion": "cert.subject=\"Let's Encrypt Authority X3\""}
+{"prompt": "我需要查找所有包含特定JavaScript文件的网站，例如包含'jquery.min.js'的网站。", "completion": "js_name=\"jquery.min.js\""}
+{"prompt": "如何查询所有部署在亚马逊云服务(AWS)上的资产？", "completion": "cloud_name=\"AWS\""}
+{"prompt": "我想找出所有响应状态码为200且标题包含'首页'的网站。", "completion": "status_code=\"200\" && title=\"首页\""}
+{"prompt": "如何利用FOFA语法来查找所有设置了特定CNAME记录的资产，例如指向'example.cloudfront.net'的资产？", "completion": "cname=\"example.cloudfront.net\""}
+{"prompt": "我需要查找所有最近在2023年更新过的资产，如何操作？", "completion": "after=\"2023-01-01\""}
+{"prompt": "如何查找所有使用了特定加密套件的TLS资产，例如使用'ECDHE-RSA-AES128-GCM-SHA256'的资产？", "completion": "tls.ja3s=\"ECDHE-RSA-AES128-GCM-SHA256\""}
+{"prompt": "如何找到位于中国浙江省，且运行Apache服务器的资产？", "completion": "region=\"Zhejiang\" && server=\"Apache\""}
+{"prompt": "我想查找所有运行在80端口，标题包含'欢迎'字样的网站。", "completion": "port=\"80\" && title*=\"欢迎\""}
+{"prompt": "如何筛选所有使用了SSL协议，且域名为.com结尾的资产？", "completion": "protocol=\"https\" && domain=\"*.com\""}
+{"prompt": "我需要找到所有部署在AWS云服务上，且是IPv6地址的资产。", "completion": "cloud_name=\"AWS\" && is_ipv6=true"}
+{"prompt": "如何查找所有包含特定响应头'X-Powered-By: PHP/5.4.45'，并且是ipv4资产的网站？", "completion": "header=\"X-Powered-By: PHP/5.4.45\" && is_ipv6=false"}
+{"prompt": "我想找到所有响应状态码为200，且包含特定JavaScript文件jquery.min.js的网站。", "completion": "status_code=\"200\" && js_name=\"jquery.min.js\""}
+{"prompt": "如何查找所有在2023年1月1日之后更新，且包含'登录'字样在标题中的网站？", "completion": "after=\"2023-01-01\" && title*=\"登录\""}
+{"prompt": "我需要找出所有既不是蜜罐也不是云服务的资产，如何操作？", "completion": "is_honeypot=false && is_cloud=false"}
+{"prompt": "如何查找所有使用了TLS 1.2版本，且域名中包含'finance'的资产？", "completion": "tls.version=\"TLS 1.2\" && domain*=\"finance\""}
+{"prompt": "我想查找所有位于中国，开放了443端口，且是HTTPS协议的网站。", "completion": "country=\"CN\" && port=\"443\" && protocol=\"https\""}
+{"prompt": "如何找到所有运行在Linux操作系统上，同时开放22和80端口的资产？", "completion": "os=\"Linux\" && (port=\"22\" || port=\"80\")"}
+{"prompt": "我想查找标题中含有'新闻'且响应头包含'nginx'的网站。", "completion": "title*=\"新闻\" && header*=\"nginx\""}
+{"prompt": "如何筛选出所有位于美国或加拿大，且域名为.edu结尾的教育机构网站？", "completion": "(country=\"US\" || country=\"CA\") && domain=\"*.edu\""}
+{"prompt": "我需要找到所有2023年1月1日之后更新，且不是蜜罐的IPv4资产。", "completion": "after=\"2023-01-01\" && is_honeypot=false && is_ipv6=false"}
+{"prompt": "如何查找所有使用了特定版本Apache服务器（如Apache/2.4.41），且SSL证书有效的资产？", "completion": "server=\"Apache/2.4.41\" && cert.is_valid=true"}
+{"prompt": "我想找到所有包含特定文本内容'欢迎登录'在HTML正文中，或者其标题中包含'首页'的网站。", "completion": "body*=\"欢迎登录\" || title*=\"首页\""}
+{"prompt": "如何找到所有既开放了HTTPS服务，同时又是在特定地区（如浙江省）的资产？", "completion": "protocol=\"https\" && region=\"Zhejiang\""}
+{"prompt": "我需要查找所有部署在特定云平台（如阿里云）上，且使用了nginx作为web服务器的资产。", "completion": "cloud_name=\"Aliyundun\" && server=\"nginx\""}
+{"prompt": "如何筛选出所有域名包含'bank'，且响应状态码为200的金融类网站？", "completion": "domain*=\"bank\" && status_code=\"200\""}
+{"prompt": "我想找出所有包含特定JavaScript库（如React）且具有ICP备案号的网站。", "completion": "js_name*=\"react\" && icp!=\"\""}
+{"prompt": "如何查找标题包含'安全'，同时响应状态码为404的资产？", "completion": "title*=\"安全\" && status_code=\"404\""}
+{"prompt": "我需要找到所有既有域名也开放了22端口的资产。", "completion": "is_domain=true && port=\"22\""}
+{"prompt": "如何筛选出所有位于'上海'且运行Windows操作系统的资产？", "completion": "city=\"Shanghai\" && os*=\"Windows\""}
+{"prompt": "我想查找所有使用了'Apache'服务器，且IP地址在'192.168.1.0/24'范围内的资产。", "completion": "server=\"Apache\" && ip=\"192.168.1.0/24\""}
+{"prompt": "如何找到所有包含特定标签<meta name=\"generator\" content=\"WordPress\">的WordPress网站？", "completion": "body*=\"<meta name='generator' content='WordPress'>\""}
+{"prompt": "我需要找出所有包含JavaScript文件'jquery.js'，且该文件的MD5值为'82ac3f14327a8b7ba49baa208d4eaa15'的网站。", "completion": "js_name=\"jquery.js\" && js_md5=\"82ac3f14327a8b7ba49baa208d4eaa15\""}
+{"prompt": "如何查找所有在2023年之后更新，包含关键词'登录'在其域名中的资产？", "completion": "after=\"2023-01-01\" && domain*=\"登录\""}
+{"prompt": "我想找到所有不是由'腾讯云'提供服务的资产，且这些资产不使用IPv6地址。", "completion": "cloud_name!=\"腾讯云\" && is_ipv6=false"}
+{"prompt": "如何筛选出所有SSL证书即将在30天内过期，且部署了'Nginx'服务器的资产？", "completion": "cert.is_expired=false && cert.is_valid=true && server=\"Nginx\""}
+{"prompt": "我需要查找所有部署在HTTPS协议上，且位于'北京'或'上海'的资产。", "completion": "protocol=\"https\" && (city=\"Beijing\" || city=\"Shanghai\")"}
