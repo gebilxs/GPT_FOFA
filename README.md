@@ -1,0 +1,2 @@
+## GPT_FOFA
+这是一个利用OpenAI转发API_key做请求，然后输入FOFA_API得到测绘结果的小Demo
